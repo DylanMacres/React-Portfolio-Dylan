@@ -5,11 +5,12 @@ const Resume = () => {
     const navigate = useNavigate()
    
   return (
+    <div className='listcss'>
     <div className='container'>
         <div className='row'>
             <div className='col-md-12 col-lg-6'>
             <ul>
-                <p>List Of Code Topics I'm Proficient At! </p>
+                <h1>List Of Code Topics I'm Proficient At! </h1>
                 <li className='list-group-item'>HTML</li>
                 <li className='list-group-item'>CSS</li>
                 <li className='list-group-item'>JavaScript</li>
@@ -34,7 +35,8 @@ const Resume = () => {
        
        
        
-        <button onClick={()=>navigate("/projects")}>Click Me To See Projects!</button>
+        <button onClick={()=>navigate("/projects")} className="button1">Click Me To See Projects!</button>
+        </div>
         </div>
   )
 }
