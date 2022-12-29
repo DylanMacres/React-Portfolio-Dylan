@@ -5,7 +5,7 @@ const Resume = () => {
     const navigate = useNavigate()
    
   return (
-    <div className='listcss'>
+
     <div className='container'>
         <div className='row'>
             <div className='col-md-12 col-lg-6'>
@@ -37,7 +37,7 @@ const Resume = () => {
        
         <button onClick={()=>navigate("/projects")} className="button1">Click Me To See Projects!</button>
         </div>
-        </div>
+     
   )
 }
 
